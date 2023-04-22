@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            max-width: 100%;
+            font-family: 'Merriweather', serif;
+            overflow-x: hidden;
+            background-color: #f3e3d3;
+        }
+
+        .container {
+            width: 1000px;
+            margin: -10px;
+        }
+
+        .menu {
+            padding: 4px 700px;
+            background-color: #744c24;
+            margin-top: -63px;
+        }
+
+        .menu ul {
+            padding: 10px;
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+            
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-weight: 600;
+            size: 17px;
+            color: #f3e3d3;
+            margin-top: 0;
+            padding: 20px 7px;
+            margin-left: 10px;
+        }
+        .menu li a:hover{
+            background-color: #f3e3d3;
+            color: #744c24;
+        }
+        .body{
+            padding-left: 250px;
+            
+        }
+        .cart{
+            display: grid;
+            grid-template-rows: auto auto auto;
+        }
+        .cart img{
+            height: 200px;
+            width: 140px;
+            border: 2px solid #744c24;
+        }
+        .cart h4{
+            color: #634221;
+        }
+        .c1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .c2{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .c3{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .footer {
+            background-color: #744c24;
+            position: relative;
+            width: 1920px;
+            left: 0;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: #f3e3d3;
+            margin-top: 20px;
+        }
+        .footer ul li{
+            list-style-type: none;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-right: 100px;
+        }
+        .footer a{
+            text-decoration: none;
+            color: #f3e3d3;
+        }
+        hr{
+            height: 1px;
+            background-color: #744c24;
+            border: none;
+        }
+        .button{
+            padding-top: 60px;
+            padding-left: 350px;
+            padding-bottom: 20px;
+        }
+        .button a{
+            text-decoration: none;
+            padding: 15px 20px;
+            border: 2px solid #744c24;
+            color: #f3e3d3;
+            background-color: #744c24;
+        }
+        .button a:hover{
+            border: 2px solid #744c24;
+            color: #744c24;
+            background-color: #f3e3d3;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&family=Merriweather&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="home.html"><img src="img/logo.png" alt="" style="position:relative; left: -650px; top: 56px;"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><img src="img/cart.png" alt="" style="margin-top: -11px;"></a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <h2 style="color: #69441f;">SHOPPING CART</h2>
+            <hr>
+            <div class="cart">
+                <div class="c1">
+                    <div class="1"><img src="img/img1.jpg" alt=""></div>
+                    <div class="2"><h4>Beach Read 
+                        <br>Emily Henry</h4></div>
+                    <div class="3"><h4>
+                        $10.55
+                        <br> 250.000 VND
+                    </h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="c2">
+                    <div class="1"><img src="img/img2.jpg" alt=""></div>
+                    <div class="2"><h4>Before the coffee gets cold
+                        <br>Toshikazu Kawaguchi</h4></div>
+                    <div class="3"><h4>
+                        $10.55
+                        <br> 250.000 VND
+                    </h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="c3">
+                    <div class="1"><img src="img/img3.JPEG" alt=""></div>
+                    <div class="2"><h4>Eileen
+                        <br>Ottessa Moshfegh</h4></div>
+                    <div class="3"><h4>
+                        $10.55
+                        <br> 250.000 VND
+                    </h4>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="button">
+                    <a href="#">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content1">
+                <h5>Group members</h5>
+                <ul>
+                    <li>Bảo Hân</li>
+                    <li>Thiên Ý</li>
+                    <li>Thanh Thanh</li>
+                    <li>Huy Thăng</li>
+                    <li>Thoại Uyên</li>
+                </ul>
+            </div>
+            <div class="content2">&copy; <em id="date"></em>Sunshine Creative Library</div>
+            <div class="content3">
+                <ul>
+                    <li>Email</li>
+                    <li>Telephone number</li>
+                    <li><a href="contact.html">Contact us here</a> </li>
+                </ul>
+            </div>
+            <ul>
+                <li>Email</li>
+                <li>Telephone number</li>
+                <li><a href="contact.html">Contact</a> </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

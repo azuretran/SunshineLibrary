@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&family=Merriweather&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            max-width: 100%;
+            font-family: 'Merriweather', serif;
+            overflow-x: hidden;
+            background-color: #f3e3d3;
+        }
+
+        .container {
+            width: 1000px;
+            margin: -10px;
+        }
+
+        .menu {
+            padding: 4px 700px;
+            background-color: #744c24;
+            margin-top: -63px;
+        }
+
+        .menu ul {
+            padding: 10px;
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+            
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-weight: 600;
+            size: 17px;
+            color: #f3e3d3;
+            margin-top: 0;
+            padding: 20px 7px;
+            margin-left: 10px;
+        }
+        .menu li a:hover{
+            background-color: #f3e3d3;
+            color: #744c24;
+        }
+        .banner img{
+            width: 1400px;
+            height: 500px;
+            margin-top: -17px;
+            filter: brightness(40%);
+        }
+        .banner .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -5%);
+            color: white;
+            font-weight: 400;
+            font-size: 90px;
+        }
+        .body{
+            margin-left: 20px;
+        }
+        .body .about1{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .content1{
+            padding-right: 8px;
+        }
+        .body .content1{
+            color: #8b5a31;
+            border: 2px solid #fff2e6;
+            background-color: #fff2e6;
+            margin-top: 2px;
+        }
+        .content1 p{
+            font-size: 15px;
+        }
+        .content2 {
+            margin-right: -300px;
+            padding-left: 10px;
+        }
+        .content2 img{
+            border: 5px solid #744c24;
+        }
+        .member{
+            padding-top: 40px;
+            display: flex;
+            justify-content: left;
+            padding-left: 30px;
+        }
+        .member img{
+            width: 189px;
+            height: 226px;
+            border: 2px double #9b6b43;
+            margin-left: 54px;
+        }
+        .member h3{
+            color: #7e5738;
+        }
+        .member h4{
+            color: #9b6b43;
+        }
+        .footer {
+            background-color: #744c24;
+            position: relative;
+            width: 1920px;
+            left: 0;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: #f3e3d3;
+            margin-top: 20px;
+        }
+        .footer ul li{
+            list-style-type: none;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-right: 100px;
+        }
+        .footer a{
+            text-decoration: none;
+            color: #f3e3d3;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="home.html"><img src="img/logo.png" alt="" style="position:relative; left: -650px; top: 56px;"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><img src="img/cart.png" alt="" style="margin-top: -11px;"></a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="img/bg2.jpg" alt="">
+            <div class="center">ABOUT US</div>
+        </div>
+        <div class="body">
+            <h1 style="color: #744c24;">INSPIRATION</h1>
+            <h3 style="color: #7e5738;">Cảm hứng thực hiện</h3>
+            <div class="about1">
+                <div class="content1">
+                    <p style="text-align: left; padding-top: 20px;">Sách là nguồn tri thức vô tận, là cánh cửa đưa chúng ta đến những thế giới mới, những trải nghiệm mới và 
+                        những suy nghĩ mới. Từ những cuốn tiểu thuyết đầy phiêu lưu cho đến những quyển sách khoa học, từ những tác 
+                        phẩm kinh điển đến những tác phẩm hiện đại, sách luôn là nguồn cảm hứng bất tận để con người khám phá thế giới
+                        xung quanh mình.</p>
+                    <p style="text-align: right; padding-top: 96px;">Books are an inexhaustible source of knowledge, a gateway to new worlds, new experiences, and new thoughts. 
+                        From adventure novels to science books, from classics to modern works, 
+                        books have always been an endless source of inspiration for people to explore the world around them.</p>
+                </div>
+                <div class="content2">
+                    <img src="https://i.pinimg.com/564x/b4/ab/72/b4ab7222da63b12c06c8e3ba9290bd0b.jpg" alt="">
+                </div>
+            </div>
+            <h2 style="text-align: center; margin-left: 370px; padding-top: 60px;">WHO ARE WE</h2>
+            <div class="member">
+                <div class="mem1">
+                    <img src="img/mem1.jpg" alt="" >
+                    <h3 style="padding-left:123px">Bảo Hân</h3>
+                    <h4 style="padding-left: 140px; margin-top: -5px;">Coder</h4>
+                </div>
+                <div class="mem2">
+                    <img src="img/mem2.jpg" alt="" >
+                    <h3 style="padding-left:89px">Thanh Thanh</h3>
+                    <h4 style="padding-left: 89px; margin-top: -5px;">Content Writter</h4>
+                </div>
+                <div class="mem3">
+                    <img src="img/mem4.JPEG" alt="">
+                    <h3 style="padding-left: 98px;">Thoại Uyên</h3>
+                    <h4 style="padding-left: 118px; margin-top: -5px;">Founder</h4>
+                </div>
+                <div class="mem4">
+                    <img src="img/mem3.jpg" alt="">
+                    <h3 style="padding-left: 105px;">Huy Thăng</h3>
+                    <h4 style="padding-left: 95px; margin-top: -5px;">Content Writter</h4>
+                </div>
+                <div class="mem5">
+                    <img src="img/mem5.JPG" alt="">
+                    <h3 style="padding-left: 112px;">Thiên Ý</h3>
+                    <h4 style="padding-left: 113px; margin-top: -5px;">Designer</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content1">
+                <h5>Group members</h5>
+                <ul>
+                    <li>Bảo Hân</li>
+                    <li>Thiên Ý</li>
+                    <li>Thanh Thanh</li>
+                    <li>Huy Thăng</li>
+                    <li>Thoại Uyên</li>
+                </ul>
+            </div>
+            <div class="content2">&copy; <em id="date"></em>Sunshine Creative Library</div>
+            <div class="content3">
+                <ul>
+                    <li>Email</li>
+                    <li>Telephone number</li>
+                    <li><a href="contact.html">Contact us here</a> </li>
+                </ul>
+            </div>
+            <ul>
+                <li>Email</li>
+                <li>Telephone number</li>
+                <li><a href="contact.html">Contact</a> </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
